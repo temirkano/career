@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       {/* <AboutPage /> */}
       <h1>bitch</h1>
+      <p>work</p>
     </div>
   );
 }
