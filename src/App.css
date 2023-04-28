@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+:root {
+  --black-color: #212b36;
+  --grey-color: #637381;
+  --orange-color: #fa541c;
+  --white-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #212b36;
+  font-family: "Barlow", sans-serif;
+}
+p,
+i {
+  color: #637381;
+  font-family: "Poppins", sans-serif;
+}

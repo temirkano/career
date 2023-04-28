@@ -1,0 +1,162 @@
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+.wrapper {
+  padding: 0 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+  height: 208px;
+}
+
+.wrapper p {
+  margin-top: 10px;
+}
+
+.leftSocial {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    display: flex;
+    justify-content: start;
+  }
+  .socials {
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+  }
+}
+
+.leftSocial p {
+  margin: 30px 0;
+  width: 250px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: start;
+}
+
+.inputFoot2 {
+  display: flex;
+  margin-left: auto;
+  padding-left: 10px;
+}
+
+.inputFoot2 button {
+  background-color: #fa541c;
+  width: 48px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 8px;
+  height: 48px;
+}
+
+.inputFoot2 input {
+  border: none;
+  width: 310px;
+  height: 48px;
+  background: rgba(145, 158, 171, 0.08);
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.flexFoot {
+  display: flex;
+  align-items: center;
+  margin-top: 82px;
+}
+.contact {
+  .flex {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.contact a {
+  text-decoration: none;
+  color: #212b36;
+}
+
+.flexFinal {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  margin-top: 8%;
+}
+
+.flexFinal p {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.flexFinal > div {
+  display: flex;
+  grid-gap: 24px;
+}
+
+.footWrapper {
+  margin-top: 125px;
+}
+@media (max-width: 768px) {
+  .leftSocial {
+    display: block;
+  }
+  .leftSocial a img {
+    margin-left: 90%;
+  }
+  .leftSocial div > p {
+    width: 220%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .leftSocial > div > p {
+    margin-left: 10%;
+  }
+  .socials {
+    margin-left: 70%;
+    margin-bottom: 80px;
+  }
+  .contact .flex {
+    position: relative;
+    left: 50%;
+    display: flex;
+  }
+  .flex img {
+    position: relative;
+    bottom: 400px;
+  }
+  .contact {
+    margin-bottom: 110px;
+  }
+  .contact {
+    .flex img {
+      position: relative;
+      top: 0px;
+      right: 0%;
+    }
+  }
+  .inputFoot2 {
+    position: relative;
+    top: 200px;
+    right: 45%;
+    input {
+      width: 272px;
+    }
+  }
+  .flexFinal {
+    margin-bottom: 200px;
+    text-align: center;
+    display: block;
+  }
+  .flexFinal div {
+    margin-top: 10px;
+    margin-left: 21%;
+  }
+}
