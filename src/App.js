@@ -1,12 +1,10 @@
 import "./App.css";
-// import AboutPage from "./pages/AboutPage";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
-      {/* <AboutPage /> */}
-      <h1>bitch</h1>
-      <p>work</p>
+      <Header/>
     </div>
   );
 }
