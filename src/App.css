@@ -36,6 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
 :root {
   --black-color: #212b36;
   --grey-color: #637381;

@@ -1,19 +1,12 @@
 import React, { useState } from "react";
 import scss from "./FooterSecond.module.scss";
-import mail from '../../assets/footerImg/email.svg'
-import pin from '../../assets/footerImg/ic_pin.svg'
 import logo from '../../assets/footerImg/logoMain.svg'
 import message from '../../assets/footerImg/Message.svg'
 import marker from '../../assets/footerImg/marker.svg'
-import logoD from '../../assets/footerImg/logod.svg'
 import arrow from '../../assets/footerImg/iconbase.svg'
-import inl from '../../assets/footerImg/inl.svg'
 import inli from '../../assets/footerImg/inli.svg'
-import insta from '../../assets/footerImg/insta.svg'
 import instagram from '../../assets/footerImg/instagram.svg'
-import tweet from '../../assets/footerImg/tweet.svg'
 import tweeter from '../../assets/footerImg/tweeter.svg'
-import face from '../../assets/footerImg/face.svg'
 import facebook from '../../assets/footerImg/facebook.svg'
 
 function FooterSecond() {
