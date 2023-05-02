@@ -100,7 +100,7 @@
     .appWrapper {
       display: block;
       width: 100%;
-      height: 925px;
+      height: 825px;
       top: 10%;
       border-radius: 0px;
       .rightContent {
@@ -108,16 +108,16 @@
         margin-top: 45px;
         h1 {
           font-size: 32px;
-          margin-left: -18px;
         }
         p {
-          margin-left: -40px;
           width: 266px;
           font-size: 16px;
           text-align: center;
+          margin-left: -20px;
         }
         .boxBtns {
           display: block;
+          margin-left: 20px;
           .boxBtn {
             margin-bottom: 20px;
           }
@@ -125,7 +125,8 @@
       }
       .leftContent {
         .img {
-          width: 374px;
+          width: 320px;
+          margin-left: 20px;
         }
       }
     }
