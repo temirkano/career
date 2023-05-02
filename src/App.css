@@ -54,7 +54,8 @@ h4 {
   font-family: "Barlow", sans-serif;
 }
 p,
-i {
+i,
+span {
   color: #637381;
   font-family: "Poppins", sans-serif;
 }

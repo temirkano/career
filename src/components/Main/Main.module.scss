@@ -1,3 +1,108 @@
 .main {
   background-image: url(../../assets/MainImg/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 626px;
+  .container {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    .rightCon {
+      margin-top: 120px;
+      span {
+        width: 98px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #fa541c;
+      }
+      h1 {
+        width: 504px;
+        height: 128px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #ffffff;
+      }
+      p {
+        width: 466px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+        opacity: 0.72;
+        margin-bottom: 50px;
+      }
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 22px;
+        gap: 8px;
+        width: 155px;
+        height: 48px;
+        background: #fa541c;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #a40505;
+        }
+        .span {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 12px;
+          margin-top: 50px;
+          color: #ffffff;
+          opacity: 3;
+        }
+      }
+    }
+    .leftCon {
+      margin-top: 5%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    height: 550px;
+    .container {
+      display: block;
+      text-align: center;
+      height: 564px;
+      padding-top: 10px;
+
+      .rightCon {
+        margin-top: 90px;
+        h1 {
+          width: 326px;
+          height: 90px;
+          font-size: 29px;
+          line-height: 44px;
+        }
+        p {
+          width: 316px;
+        }
+        button {
+          margin: 0 auto;
+        }
+      }
+      .leftCon {
+        display: none;
+      }
+    }
+  }
 }
