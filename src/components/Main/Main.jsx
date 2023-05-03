@@ -15,7 +15,7 @@ function Main() {
           </p>
           <button>
             <img src={mainIcon} alt="icon" />
-            <span>Post a Job</span>
+            <p className={scss.span}>Post a Job</p>
           </button>
         </div>
         <div className={scss.leftCon}>

@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  
   height: 626px;
   .container {
     width: 82%;
@@ -59,14 +58,15 @@
         &:hover {
           background-color: #a40505;
         }
-
-        span {
+        .span {
           font-family: "Poppins", sans-serif;
           font-style: normal;
           font-weight: 600;
-          font-size: 12px;
+          font-size: 14px;
           line-height: 12px;
+          margin-top: 50px;
           color: #ffffff;
+          opacity: 2;
         }
       }
     }
@@ -78,6 +78,7 @@
 
 @media (max-width: 900px) {
   .main {
+    height: 560px;
     .container {
       display: block;
       text-align: center;
@@ -88,8 +89,9 @@
         margin-top: 90px;
         h1 {
           width: 326px;
+          height: 90px;
           font-size: 29px;
-          line-height: 60px;
+          line-height: 44px;
         }
         p {
           width: 316px;
