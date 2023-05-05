@@ -22,16 +22,16 @@ function Clients() {
           <div className={scss.boxIcon}>
             <img src={slack} alt="icon" />
           </div>
-          <div className={scss.boxIcon1}>
+          <div className={scss.boxIcon}>
             <img src={netflix} alt="icon" />
           </div>
-          <div className={scss.boxIcon1}>
+          <div className={scss.boxIcon}>
             <img src={heroku} alt="icon" />
           </div>
-          <div className={scss.boxIcon1}>
+          <div className={scss.boxIcon}>
             <img src={vimeo} alt="icon" />
           </div>
-          <div className={scss.boxIcon1}>
+          <div className={scss.boxIcon}>
             <img src={airbnb} alt="icon" />
           </div>
         </div>
