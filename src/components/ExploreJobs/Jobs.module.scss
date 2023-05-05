@@ -76,114 +76,115 @@
         font-size: 15px;
         line-height: 26px;
         color: white;
-    }
-  }
-}
-@media (max-width: 912px) {
-  .jobs {
-    h1 {
-      font-size: 44px;
-    }
-    p {
-      font-size: 14px;
-    }
-    i {
-      font-size: 11px;
-    }
-    .boxsJobs {
-      justify-content: space-between;
-      .boxJobs {
-        img {
-          margin-bottom: 22px;
-        }
-        .step {
-          font-size: 12px;
-        }
-        p {
-          width: 184px;
-          font-size: 12px;
-        }
-        h3 {
-          font-size: 16px;
-        }
       }
     }
   }
 }
-@media (max-width: 576px) {
-  .jobs {
-    h1 {
-      font-size: 40px;
+  @media (max-width: 900px) {
+    .jobs {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 14px;
+        width: 314px;
+      }
+      i {
+        font-size: 11px;
+      }
+      .boxsJobs {
+        display: block;
+        .boxJobs {
+          img {
+            margin-bottom: 22px;
+          }
+          .step {
+            font-size: 12px;
+          }
+          p {
+            width: 184px;
+            font-size: 12px;
+          }
+          h3 {
+            font-size: 16px;
+          }
+        }
+      }
     }
-    p {
-      font-size: 12px;
-      width: 400px;
-    }
-    i {
-      font-size: 9px;
-    }
-    .boxsJobs {
-      display: block;
-      margin-top: 48px;
-      .boxJobs {
-        margin-bottom: 60px;
+  }
+  @media (max-width: 576px) {
+    .jobs {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 12px;
+        width: 400px;
+      }
+      i {
+        font-size: 9px;
+      }
+      .boxsJobs {
+        display: block;
+        margin-top: 48px;
+        .boxJobs {
+          margin-bottom: 60px;
 
-        img {
-          margin-bottom: 10px;
+          img {
+            margin-bottom: 10px;
+          }
+          h3 {
+            margin-top: 0px;
+          }
         }
-        h3 {
-          margin-top: 0px;
+      }
+      .btnUpload {
+        button {
+          margin-top: 20px;
         }
       }
     }
-    .btnUpload {
-      button {
-        margin-top: 20px;
+  }
+  @media (max-width: 414px) {
+    .jobs {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 12px;
+        width: 330px;
       }
     }
   }
-}
-@media (max-width: 414px) {
-  .jobs {
-    h1 {
-      font-size: 34px;
-    }
-    p {
-      font-size: 12px;
-      width: 330px;
-    }
-  }
-}
-@media (max-width: 412px) {
-  .jobs {
-    h1 {
-      font-size: 34px;
-    }
-    p {
-      font-size: 12px;
-      width: 330px;
+  @media (max-width: 412px) {
+    .jobs {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 12px;
+        width: 330px;
+      }
     }
   }
-}
-@media (max-width: 360px) {
-  .jobs {
-    p {
-      width: 269px;
+  @media (max-width: 375px) {
+    .jobs {
+      p {
+        width: 314px;
+      }
     }
   }
-}
-@media (max-width: 375px) {
-  .jobs {
-    p {
-      width: 312px;
+  @media (max-width: 360px) {
+    .jobs {
+      p {
+        width: 269px;
+      }
     }
   }
-}
-@media (max-width: 280px) {
-  .jobs {
-    p {
-      width: 234px;
+  @media (max-width: 280px) {
+    .jobs {
+      p {
+        width: 234px;
+      }
     }
   }
-}
-}
