@@ -87,8 +87,7 @@
         font-weight: 600;
         font-size: 15px;
         line-height: 26px;
-        color: #ffffff;
-      }
+        color: white;
     }
   }
 }
@@ -168,16 +167,16 @@
   }
 }
 @media (max-width: 412px) {
-    .jobs {
-      h1 {
-        font-size: 34px;
-      }
-      p {
-        font-size: 12px;
-        width: 330px;
-      }
+  .jobs {
+    h1 {
+      font-size: 34px;
+    }
+    p {
+      font-size: 12px;
+      width: 330px;
     }
   }
+}
 @media (max-width: 360px) {
   .jobs {
     p {
