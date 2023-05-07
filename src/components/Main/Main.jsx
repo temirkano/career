@@ -9,7 +9,7 @@ function Main() {
         <div className={scss.rightCon}>
           <span>FOR RECRUITERS</span>
           <h1>Do You Have A Position To Post Job? </h1>
-          <p>
+          <p className={scss.p}>
             Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.
             Morbi mattis ullamcorper velit.
           </p>
