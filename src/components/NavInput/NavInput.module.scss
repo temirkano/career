@@ -129,6 +129,34 @@
   }
 }
 
+@media (max-width:985px) {
+  .wrapper{
+    height: 50vh;
+
+    .input{
+      height: 40vh;
+      flex-direction: column;
+    }
+
+    .bottNav{
+      height: 27vh;
+      gap: 15px;
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+
+    .button{
+      img{
+        padding: 0 100px;
+      }
+    }
+  }
+
+}
+
 @media (max-width: 768px) {
   .wrapper {
     height: 10vh;
@@ -143,9 +171,10 @@
     .fillter {
       height: 100%;
       display: flex;
-      justify-content: flex-end;
-      align-items: center;
+      justify-content: end;
       margin-right: 20px;
+      align-items: center;
+      border: none;
 
       div {
         padding: 5px 10px;
@@ -171,3 +200,5 @@
     }
   }
 }
+
+
