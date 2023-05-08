@@ -1,0 +1,190 @@
+.jobs {
+  width: 82%;
+  margin: 0 auto;
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+  }
+  p {
+    width: 480px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  i {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .boxsJobs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    .boxJobs {
+      p {
+        width: 208px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #637381;
+      }
+      .step {
+        text-transform: uppercase;
+        color: #919eab;
+      }
+      img {
+        margin-bottom: 32px;
+      }
+    }
+  }
+  .btnUpload {
+    display: flex;
+    justify-content: center;
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 11px 22px;
+      gap: 8px;
+      width: 196px;
+      height: 48px;
+      background: #fa541c;
+      border-radius: 8px;
+      border: none;
+      margin-top: 80px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #a40505;
+      }
+      p {
+        width: 120px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 26px;
+        color: white;
+      }
+    }
+  }
+}
+  @media (max-width: 900px) {
+    .jobs {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 14px;
+        width: 314px;
+      }
+      i {
+        font-size: 11px;
+      }
+      .boxsJobs {
+        display: block;
+        .boxJobs {
+          img {
+            margin-bottom: 22px;
+          }
+          .step {
+            font-size: 12px;
+          }
+          p {
+            width: 184px;
+            font-size: 12px;
+          }
+          h3 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    .jobs {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 12px;
+        width: 400px;
+      }
+      i {
+        font-size: 9px;
+      }
+      .boxsJobs {
+        display: block;
+        margin-top: 48px;
+        .boxJobs {
+          margin-bottom: 60px;
+
+          img {
+            margin-bottom: 10px;
+          }
+          h3 {
+            margin-top: 0px;
+          }
+        }
+      }
+      .btnUpload {
+        button {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  @media (max-width: 414px) {
+    .jobs {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 12px;
+        width: 330px;
+      }
+    }
+  }
+  @media (max-width: 412px) {
+    .jobs {
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 12px;
+        width: 330px;
+      }
+    }
+  }
+  @media (max-width: 375px) {
+    .jobs {
+      p {
+        width: 314px;
+      }
+    }
+  }
+  @media (max-width: 360px) {
+    .jobs {
+      p {
+        width: 269px;
+      }
+    }
+  }
+  @media (max-width: 280px) {
+    .jobs {
+      p {
+        width: 234px;
+      }
+    }
+  }
