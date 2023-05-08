@@ -1,11 +1,11 @@
 import "./App.css";
+import MainCareer from "./components/MainCareer/MainCareer";
 // import AboutPage from "./pages/AboutPage";
-import Jobs from "./components/ExploreJobs/Jobs";
 function App() {
   return (
     <div className="App">
       {/* <AboutPage /> */}
-     <Jobs/>
+      <MainCareer />
     </div>
   );
 }

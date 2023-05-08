@@ -1,0 +1,483 @@
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+.wrapper {
+  background-image: url(../../assets/MainImg/Background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  .career {
+    display: flex;
+    justify-content: space-between;
+    .rightCareer {
+      padding-top: 3%;
+      h1 {
+        width: 457px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 80px;
+        color: #ffffff;
+        text-align: start;
+        .span {
+          color: #fa541c;
+          padding: 0px 8px;
+        }
+      }
+      .textContent {
+        width: 466px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: start;
+        margin-bottom: 50px;
+      }
+      .boxSearch {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px;
+        width: 466px;
+        height: 64px;
+        background: #ffffff;
+        box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+        border-radius: 9px;
+
+        .textSearch {
+          display: none;
+        }
+        p {
+          color: #919eab;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          opacity: 0.48;
+        }
+        .inputSearch {
+          color: #919eab;
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          border: none;
+          opacity: 0.48;
+          width: 220px;
+        }
+        .search,
+        .location {
+          display: flex;
+          gap: 10px;
+        }
+        .hr {
+          width: 1px;
+          height: 24px;
+          background: rgba(145, 158, 171, 0.24);
+        }
+        button {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 12px;
+          width: 48px;
+          height: 48px;
+          background: #fa541c;
+          border-radius: 8px;
+          border: none;
+          cursor: pointer;
+
+          &:hover {
+            background: #a40505;
+          }
+        }
+      }
+      .brands {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        gap: 30px;
+        .brand {
+          display: flex;
+          gap: 30px;
+        }
+      }
+      .follovers {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 19px;
+        width: 444.21px;
+        .follover {
+          display: flex;
+          gap: 19px;
+
+          .dashed,
+          .dashed2 {
+            width: 1px;
+            height: 66px;
+            border: 1px dashed rgba(145, 158, 171, 0.24);
+          }
+          .textFollover {
+            h2 {
+              width: 70px;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 0px;
+              text-align: center;
+              color: #ffffff;
+            }
+            p {
+              width: 100%;
+              font-family: "Poppins", sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 20px;
+              text-align: center;
+              color: #ffffff;
+              opacity: 0.48;
+            }
+            .textFollovers {
+              width: 129px;
+            }
+          }
+        }
+      }
+    }
+    .leftCareer {
+      margin-top: 4%;
+      img {
+        height: 700px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .wrapper {
+    .career {
+      gap: 30px;
+
+      .leftCareer {
+        margin-top: 10%;
+        img {
+          height: 600px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        h1 {
+          font-size: 57px;
+          line-height: 72px;
+        }
+        .textContent {
+          width: 410px;
+        }
+        .boxSearch {
+          padding: 0px;
+          width: 406px;
+        }
+        .brands {
+          gap: 14px;
+          .brand {
+            gap: 14px;
+          }
+        }
+        .follovers {
+          gap: 9px;
+          .follover {
+            gap: 9px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1170px) {
+  .wrapper {
+    .career {
+      gap: 20px;
+
+      .leftCareer {
+        margin-top: 10%;
+        img {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1060px) {
+  .wrapper {
+    .career {
+      gap: 10px;
+
+      .leftCareer {
+        margin-top: 20%;
+        img {
+          height: 400px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 937px) {
+  .wrapper {
+    .career {
+      gap: 0px;
+
+      .leftCareer {
+        margin-top: 30%;
+        img {
+          height: 360px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 915px) {
+  .wrapper {
+    .career {
+      display: block;
+      .rightCareer {
+        h1 {
+          width: 100%;
+          text-align: center;
+          margin: 0 auto;
+        }
+        .textContent {
+          margin: 30px auto;
+          text-align: center;
+        }
+        .boxSearch {
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          padding: 30px;
+          gap: 8px;
+          width: 300px;
+          height: 176px;
+          background: #ffffff;
+          box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+          border-radius: 8px;
+
+          .hr {
+            display: none;
+          }
+          button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 11px 22px;
+            gap: 10px;
+            width: 300px;
+            height: 48px;
+
+            .textSearch {
+              display: flex;
+              color: white;
+              opacity: 1;
+            }
+          }
+        }
+        .brands {
+          display: block;
+          width: 113%;
+          .brand {
+            display: block;
+            margin-bottom: 30px;
+            img {
+              margin-right: 100px;
+            }
+          }
+        }
+        .follovers {
+          display: block;
+          gap: 30px;
+          margin: 0 auto;
+          width: 286px;
+
+          .follover {
+            gap: 65px;
+
+            .textFollover {
+              .textFollovers {
+                line-height: 0px;
+                margin-left: -30px;
+              }
+            }
+          }
+          .dashed2 {
+            display: none;
+          }
+        }
+      }
+      .leftCareer {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 595px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        .brands {
+          width: 100%;
+          margin-left: 49px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 473px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        h1 {
+          font-size: 48px;
+          line-height: 66px;
+        }
+        .textContent {
+          width: 330px;
+        }
+
+        .boxSearch {
+          .inputSearch {
+            width: 154px;
+          }
+        }
+        .brands {
+          width: 100%;
+          margin-left: 26px;
+
+          .brand {
+            img {
+              margin-right: 60px;
+            }
+          }
+        }
+        .follovers {
+          width: 273px;
+          .follover {
+            gap: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        h1 {
+          font-size: 38px;
+          line-height: 48px;
+        }
+        .textContent {
+          width: 280px;
+        }
+        .boxSearch {
+          width: 276px;
+
+          .inputSearch {
+            width: 144px;
+          }
+
+          button {
+            width: 274px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        .boxSearch {
+          width: 230px;
+
+          button {
+            width: 228px;
+          }
+        }
+        .brands {
+          margin-left: 0px;
+          width: 110%;
+        }
+        .follovers {
+          width: 279px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 340px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        h1 {
+          font-size: 28px;
+        }
+        .textContent {
+          width: 215px;
+          font-size: 10px;
+        }
+        .boxSearch {
+          width: 200px;
+
+          button {
+            width: 200px;
+          }
+        }
+        .brands {
+          width: 109%;
+          .brand {
+            img {
+              margin-right: 30px;
+            }
+          }
+        }
+        .follovers {
+          width: 234px;
+          .follover {
+            gap: 38px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 290px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        .boxSearch {
+          width: 180px;
+          .inputSearch {
+            width: 134px;
+          }
+          button {
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -54,13 +54,53 @@
     p {
       font-size: 14px;
       width: 335px;
-      margin-left: 28px;
+      margin: 0 auto;
     }
     input {
+      margin-top: 30px;
       width: 180px;
     }
     button {
       width: 110px;
+    }
+  }
+}
+@media (max-width: 456px) {
+  .footerBox {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .footerBox {
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      width: 230px;
+    }
+    input {
+      width: 140px;
+    }
+    button {
+      width: 100px;
+    }
+  }
+}
+@media (max-width: 280px) {
+  .footerBox {
+    h1 {
+      font-size: 21px;
+    }
+    p {
+      font-size: 12px;
+    }
+    input {
+      width: 100px;
+    }
+    button {
+      width: 94px;
     }
   }
 }
