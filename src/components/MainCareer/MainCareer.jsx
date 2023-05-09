@@ -16,18 +16,18 @@ function MainCareer() {
           <div className={scss.rightCareer}>
             <h1>
               Get The
-              <span className={scss.orange}>Career</span>
+              <span className={scss.span}>Career</span>
               <br />
               You Deserve
             </h1>
-            <p className={scss.p}>
+            <p className={scss.textContent}>
               Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet
               sapien, quis venenatis ante odio sit amet eros.
             </p>
             <div className={scss.boxSearch}>
               <div className={scss.search}>
                 <img src={search} alt="icon" />
-                <input type="text" placeholder="Job title, keywords..." className={scss.inputP}/>
+                <input type="text" placeholder="Job title, keywords..." className={scss.inputSearch}/>
               </div>
               <div className={scss.hr}></div>
               <div className={scss.location}>
@@ -58,7 +58,7 @@ function MainCareer() {
                 <div className={scss.dashed}></div>
                 <div className={scss.textFollover}>
                   <h2>500k+</h2>
-                  <p className={scss.p}>Successful Hiring</p>
+                  <p className={scss.textFollovers}>Successful Hiring</p>
                 </div>
                 <div className={scss.dashed2}></div>
               </div>
