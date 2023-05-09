@@ -27,7 +27,7 @@ function MainCareer() {
             <div className={scss.boxSearch}>
               <div className={scss.search}>
                 <img src={search} alt="icon" />
-                <input type="text" placeholder="Job title, keywords..." className={scss.inputSearch}/>
+                <input className={scss.inputSearch} type="text" placeholder="Job title, keywords..." />
               </div>
               <div className={scss.hr}></div>
               <div className={scss.location}>

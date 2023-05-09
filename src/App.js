@@ -1,11 +1,11 @@
 import "./App.css";
-import MainCareer from "./components/MainCareer/MainCareer";
+import CustomerFeedback from "./components/CustomerFeedback/CustomerFeedback";
 // import AboutPage from "./pages/AboutPage";
 function App() {
   return (
     <div className="App">
       {/* <AboutPage /> */}
-      <MainCareer />
+      <CustomerFeedback />
     </div>
   );
 }
