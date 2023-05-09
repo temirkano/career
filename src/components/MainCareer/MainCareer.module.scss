@@ -354,6 +354,12 @@
         .textContent {
           width: 330px;
         }
+
+        .boxSearch {
+          .inputSearch {
+            width: 154px;
+          }
+        }
         .brands {
           width: 100%;
           margin-left: 26px;
@@ -387,6 +393,10 @@
         }
         .boxSearch {
           width: 276px;
+
+          .inputSearch {
+            width: 144px;
+          }
 
           button {
             width: 274px;
@@ -432,10 +442,6 @@
         .boxSearch {
           width: 200px;
 
-          .inputSearch {
-            width: 150px;
-          }
-
           button {
             width: 200px;
           }
@@ -463,12 +469,12 @@
     .career {
       .rightCareer {
         .boxSearch {
-          width: 178px;
+          width: 180px;
           .inputSearch {
             width: 134px;
           }
           button {
-            width: 184px;
+            width: 180px;
           }
         }
       }
