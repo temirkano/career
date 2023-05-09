@@ -22,7 +22,7 @@ const CustomerFeedback = () => {
         <div>
           <div className={scss.review}>
             <h1>What Our Customer Say</h1>
-            <img src={solars} alt="icon" />
+            <img src={solars} alt="iconSolars" />
             <p>
               Amazing experience i love it a lot. Thanks to the team that dreams
               come true, great! I appreciate there attitude and approach.
@@ -34,7 +34,7 @@ const CustomerFeedback = () => {
         <div>
           <div className={scss.review}>
             <h1>What Our Customer Say</h1>
-            <img src={solars} alt="icon" />
+            <img src={solars} alt="iconSolars" />
             <p>
               Amazing experience i love it a lot. Thanks to the team that dreams
               come true, great! I appreciate there attitude and approach.
@@ -45,10 +45,10 @@ const CustomerFeedback = () => {
         </div>
       </Slider>
       <button onClick={() => arrowRef.current.slickPrev()}>
-        <img src={prev} alt="icon" />
+        <img src={prev} alt="iconPrev" />
       </button>
       <button onClick={()=> arrowRef.current.slickNext()}>
-        <img src={next} alt="icon" />
+        <img src={next} alt="iconNext" />
       </button>
     </>
   );
