@@ -67,7 +67,6 @@
           border: none;
           opacity: 0.48;
           width: 220px;
-          
         }
         .search,
         .location {
@@ -432,6 +431,10 @@
         }
         .boxSearch {
           width: 200px;
+
+          .inputSearch {
+            width: 150px;
+          }
 
           button {
             width: 200px;
