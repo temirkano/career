@@ -8,7 +8,8 @@ import filters from '../../assets/Input/filters.svg'
 
 function NavInput() {
   return (
-    <div className={css.wrapper}>
+    <div className="container">
+      <div className={css.wrapper}>
       <div className={css.input}>
         <div className={css.in1}>
           <input type="text" placeholder="Job title, keywords..." />
@@ -79,6 +80,7 @@ function NavInput() {
                 <button>Filters</button>
             </div>
       </div>
+    </div>
     </div>
   );
 }
