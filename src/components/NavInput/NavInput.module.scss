@@ -71,6 +71,12 @@
       background-repeat: no-repeat;
       background-position: 10px;
     }
+
+    .button {
+      p {
+        display: none;
+      }
+    }
   }
 
   .bottNav {
@@ -120,19 +126,18 @@
 .button {
   height: 50px;
   cursor: pointer;
+  background: #fa541c;
+  border-radius: 8px;
+  padding: 0px 15px;
+
   img {
-    padding: 5px 15px;
-    width: 20px;
-    background: #fa541c;
-    border-radius: 8px;
+    width: 20px; 
   }
 }
 
 .button:hover {
-  img {
     background-color: #9d2b01;
     border-radius: 8px;
-  }
 }
 
 @media (max-width: 1153px) {
@@ -154,28 +159,39 @@
   }
 }
 
-@media (max-width: 985px) {
+@media (max-width: 970px) {
   .wrapper {
-    height: 50vh;
-
     .input {
-      height: 40vh;
-      flex-direction: column;
-    }
+      .in1 {
+        input {
+          width: 180px;
+        }
+      }
 
-    .bottNav {
-      height: 30vh;
-      gap: 25px;
-      width: 100%;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
+      .in2,
+      .in3 {
+        select {
+          width: 180px;
+        }
+      }
     }
+  }
+}
 
-    .button {
-      img {
-        padding: 0 100px;
+@media (max-width: 810px) {
+  .wrapper {
+    .input {
+      .in1 {
+        input {
+          width: 140px;
+        }
+      }
+
+      .in2,
+      .in3 {
+        select {
+          width: 120px;
+        }
       }
     }
   }
@@ -200,7 +216,7 @@
       align-items: center;
       border: none;
 
-      div {
+      .btn {
         padding: 5px 10px;
         background: #212b36;
         border-radius: 8px;
@@ -219,6 +235,132 @@
           background: #212b36;
           border-radius: 8px;
           color: white;
+        }
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .button {
+          padding: 0 100px;
+          img {
+            width: 23px;
+            position: relative;
+            right: 10px;
+            top: 14px;
+          }
+
+          span{
+            font-size: 16px;
+            position: relative;
+            right: 0px;
+            top: 7px;
+            color: white;
+          }
+        }
+      }
+
+      .in_1 {
+        border-radius: 8px;
+        background: rgb(240, 240, 242);
+        background-image: url(../../assets/Input/serch.svg) ;
+        background-repeat: no-repeat;
+        background-position: 10px;
+
+        input {
+          background: rgb(240, 240, 242);
+          border: none;
+          border-radius: 8px;
+          height: 48px;
+          width: 240px;
+          margin-left: 40px;
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+        }
+        input::-webkit-input-placeholder {
+          color: #919eab;
+        }
+      }
+
+      .in_2,
+      .in_3 {
+        border-radius: 8px;
+        padding-left: 40px;
+        background: rgb(240, 240, 242);
+
+        select {
+          background: rgb(240, 240, 242);
+          border: none;
+          border-radius: 8px;
+          width: 240px;
+          height: 40px;
+          margin: 5px 5px;
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #919eab;
+        }
+      }
+
+      .in_2 {
+        background-image: url(../../assets/Input/keys.svg);
+        background-repeat: no-repeat;
+        background-position: 10px;
+      }
+
+      .in_3 {
+        background-image: url(../../assets//Input//map.svg);
+        background-repeat: no-repeat;
+        background-position: 10px;
+      }
+
+      .content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 18px;
+      }
+
+      .nav,
+      .nav2,
+      .nav4 {
+        select {
+          border: none;
+          width: 103px;
+          height: 34px;
+          background: rgb(240, 240, 242);
+          border-radius: 8px;
+          padding-left: 5px;
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #919eab;
+        }
+      }
+
+      .nav3 {
+        select {
+          padding: 5px 10px;
+          border: none;
+          background: rgb(240, 240, 242);
+          border-radius: 8px;
+          width: 158px;
+          height: 34px;
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #919eab;
         }
       }
     }
