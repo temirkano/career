@@ -335,9 +335,12 @@
       .nav,
       .nav2,
       .nav4 {
+        background: rgb(240, 240, 242);
+        border-radius: 8px;
+        padding: 0 5px;
         select {
           border: none;
-          width: 103px;
+          width: 100px;
           height: 34px;
           background: rgb(240, 240, 242);
           border-radius: 8px;
@@ -351,6 +354,9 @@
       }
 
       .nav3 {
+        background: rgb(240, 240, 242);
+        border-radius: 8px;
+        padding: 0 5px;
         select {
           padding: 5px 10px;
           border: none;
