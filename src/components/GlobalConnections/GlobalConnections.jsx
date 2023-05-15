@@ -15,18 +15,17 @@ const GlobalConnections = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
     speed: 2000,
     arrows: false,
-    autoplaySpeed: 2000,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1124,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
           dots: false,
+          speed: 3000,
         },
       },
       {
