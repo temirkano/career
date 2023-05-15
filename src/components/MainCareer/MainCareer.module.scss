@@ -232,6 +232,23 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    .career {
+      .rightCareer {
+        .boxSearch {
+          width: 400px;
+          padding: 0px 10px;
+
+          .inputSearch {
+            width: 140px;
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width: 937px) {
   .wrapper {
     .career {
