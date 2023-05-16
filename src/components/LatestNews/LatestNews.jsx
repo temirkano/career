@@ -2,31 +2,33 @@ import React, { useMemo, useState } from "react";
 import { LatestNewsImg, LatestNewsImg1 } from "../../const/LatestNewsImg";
 import LatestNewsCard from "../LatestNews/LatestNewsCard/LatestNewsCard";
 import scss from "./LatestNews.module.scss";
-import ratio0 from "../../assets/LatestNewsImg/Ratio.svg";
-import ratio1 from "../../assets/LatestNewsImg/Ratio1.svg";
-import ratio2 from "../../assets/LatestNewsImg/Ratio2.svg";
-import ratio3 from "../../assets/LatestNewsImg/Ratio3.svg";
-import ratio4 from "../../assets/LatestNewsImg/Ratio4.svg";
+import city1 from "../../assets/LatestNewsImg/Ratio1.svg";
+import city2 from "../../assets/LatestNewsImg/Ratio2.svg";
+import city3 from "../../assets/LatestNewsImg/Ratio3.svg";
+import city4 from "../../assets/LatestNewsImg/Ratio4.svg";
+import city0 from "../../assets/LatestNewsImg/Ratio.svg";
 
 function LatestNews() {
-  //   const [img, setImg] = useState(LatestNewsImg[0]);
-  //   const handleChangeImg = (img) => {
-  //     setImg(img);
-  //   };
+ const LatestNewsImg = [city0, city1, city2, city3, city4];
+    const [img, setImg] = useState(LatestNewsImg[0]);
+    const handleChangeImg = (img) => {
+      setImg(img);
+    };
 
-  //   const renderImg = useMemo(
-  //     () =>
-  //       LatestNewsImg.map((item) => (
-  //         <LatestNewsCard key={item} img={item} handleChangeImg={handleChangeImg} />
-  //       )),
-  //     [LatestNewsImg]
-  //   );
+    const renderImg = useMemo(
+      () =>
+        LatestNewsImg.map((item) => (
+          <LatestNewsCard key={item} img={item} handleChangeImg={handleChangeImg} />
+        )),
+      [LatestNewsImg]
+    );
+
 
   return (
     <div className={scss.container}>
       <div className={scss.latestNews}>
         <div className={scss.latestNewsLeft}>
-          <img src={ratio0} alt="image" />
+          <img src={city0} alt="image" />
           <div className={scss.latestNewsLeftText}>
             <div className={scss.newsTextLeft}>
               <span>24 May 2019</span>
@@ -44,7 +46,7 @@ function LatestNews() {
         <div className={scss.latestNewsRight}>
           <div className={scss.newsCards}>
             <div className={scss.newsCard}>
-              <img src={ratio1} alt="img" />
+              <img src={city1} alt="img" />
               <div className={scss.newsText}>
                 <span>24 May 2019</span>
                 <div className={scss.ul}></div>
@@ -53,7 +55,7 @@ function LatestNews() {
               <h2>Apply These 7 Secret Techniques To Improve Event</h2>
             </div>
             <div className={scss.newsCard}>
-              <img src={ratio3} alt="img" />
+              <img src={city3} alt="img" />
               <div className={scss.newsText}>
                 <span>24 May 2019</span>
                 <div className={scss.ul}></div>
@@ -64,7 +66,7 @@ function LatestNews() {
           </div>
           <div className={scss.newsCards}>
             <div className={scss.newsCard}>
-              <img src={ratio2} alt="img" />
+              <img src={city2} alt="img" />
               <div className={scss.newsText}>
                 <span>24 May 2019</span>
                 <div className={scss.ul}></div>
@@ -73,7 +75,7 @@ function LatestNews() {
               <h2>Event Doesn't Have To Be Hard. Read These 7 Tips</h2>
             </div>
             <div className={scss.newsCard}>
-              <img src={ratio4} alt="img" />
+              <img src={city4} alt="img" />
               <div className={scss.newsText}>
                 <span>24 May 2019</span>
                 <div className={scss.ul}></div>

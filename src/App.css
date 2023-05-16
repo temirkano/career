@@ -36,10 +36,7 @@
     transform: rotate(360deg);
   }
 }
-.container {
-  width: 82%;
-  margin: 0 auto;
-}
+
 :root {
   --black-color: #212b36;
   --grey-color: #637381;
@@ -55,7 +52,12 @@ h4 {
 }
 p,
 i,
-span {
+span,
+li {
   color: #637381;
   font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 82%;
+  margin: 0 auto;
 }

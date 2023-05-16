@@ -1,0 +1,352 @@
+.container {
+  width: 82%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  margin-top: 60px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  .workingRightContent {
+    .loveWorkingText {
+      width: 746px;
+      margin-bottom: 40px;
+      li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #212b36;
+      }
+    }
+    .jobSkills {
+      margin-bottom: 44px;
+      cursor: pointer;
+      .jobBox {
+        display: flex;
+        gap: 20px;
+        p {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 4px 12px;
+          background: rgba(145, 158, 171, 0.16);
+          border-radius: 8px;
+        }
+      }
+    }
+    .advantages {
+      margin-bottom: 40px;
+      .boxsAdvantages {
+        display: flex;
+        .advantagesBox {
+          width: 247px;
+          display: flex;
+          gap: 20px;
+        }
+      }
+    }
+    .location {
+      h1 {
+        margin-bottom: 30px;
+      }
+      iframe {
+        border-radius: 16px;
+        border: none;
+      }
+    }
+    .hr {
+      height: 1px;
+      width: 746px;
+      background: rgba(145, 158, 171, 0.24);
+      margin: 40px 0px;
+    }
+    .share {
+      display: flex;
+      align-items: center;
+
+      h3 {
+        margin-right: 10px;
+      }
+      .btnsShare {
+        button {
+          border: none;
+          background: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .workingLeftContent {
+    .dropBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px 24px;
+      gap: 20px;
+      width: 342px;
+      height: 104px;
+      border: 1px solid rgba(145, 158, 171, 0.24);
+      border-radius: 16px;
+      margin-bottom: 44px;
+    }
+    .jobs {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 5px 24px 10px;
+      width: 342px;
+      border: 1px solid rgba(145, 158, 171, 0.24);
+      border-radius: 16px;
+      margin-bottom: 40px;
+      h2 {
+        color: #fa541c;
+        margin-bottom: 30px;
+      }
+      .dashed {
+        width: 294px;
+        border: 1px dashed rgba(145, 158, 171, 0.24);
+        margin: 4px 0px;
+      }
+    }
+    .advertisement {
+      background-image: url(../../assets/LoveWorkingImg/Overlay.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #22b8cf;
+        padding-top: 40%;
+      }
+      p {
+        width: 338px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #ffffff;
+      }
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 16px;
+        width: 87px;
+        height: 36px;
+        background: #fa541c;
+        border-radius: 8px;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        margin: 0 auto;
+
+        &:hover {
+          background-color: #a40505;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1430px) {
+  .container {
+    .workingRightContent {
+      .loveWorkingText {
+        width: 560px;
+      }
+      .jobSkills {
+        .jobBox {
+          display: grid;
+          grid-template: 1fr 1fr / 1fr 1fr 1fr;
+          width: min-content;
+        }
+      }
+      .location {
+        iframe {
+          width: 640px;
+        }
+      }
+      .hr {
+        width: 640px;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    .workingRightContent {
+      .advantages {
+        .boxsAdvantages {
+          .advantagesBox {
+            width: 210px;
+          }
+        }
+      }
+      .location {
+        iframe {
+          width: 556px;
+        }
+      }
+      .hr {
+        width: 556px;
+      }
+    }
+  }
+}
+@media (max-width: 1160px) {
+  .container {
+    .workingLeftContent {
+      .jobs,
+      .dropBox {
+        width: 290px;
+      }
+    }
+  }
+}
+@media (max-width: 1110px) {
+  .container {
+    .workingRightContent {
+      .advantages {
+        .boxsAdvantages {
+          .advantagesBox {
+            width: 200px;
+            gap: 8px;
+          }
+        }
+      }
+      .location {
+        iframe {
+          width: 524px;
+        }
+      }
+      .hr {
+        width: 524px;
+      }
+    }
+  }
+}
+@media (max-width: 1060px) {
+  .container {
+    .workingRightContent {
+      .loveWorkingText {
+        width: 450px;
+      }
+      .advantages {
+        .boxsAdvantages {
+          display: block;
+        }
+      }
+      .location {
+        iframe {
+          width: 460px;
+        }
+      }
+      .hr {
+        width: 460px;
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    .workingRightContent {
+      .loveWorkingText {
+        width: 350px;
+      }
+      .jobSkills {
+        .jobBox {
+          grid-template: 1fr 1fr/1fr 1fr;
+        }
+      }
+      .location {
+        iframe {
+          width: 400px;
+        }
+      }
+      .hr {
+        width: 400px;
+      }
+    }
+  }
+}
+@media (max-width: 915px) {
+  .container {
+    display: block;
+    margin: 0 auto;
+    .workingRightContent {
+      .share {
+        width: 200px;
+        margin-bottom: 40px;
+        h3 {
+          margin-top: -25px;
+        }
+      }
+      .location {
+        iframe {
+          width: 360px;
+        }
+      }
+      .hr {
+        width: 350px;
+      }
+      .jobSkills {
+        .jobBox {
+          p {
+            margin-bottom: -16px;
+            width: max-content;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    .workingRightContent {
+      .loveWorkingText {
+        h1 {
+          font-size: 24px;
+        }
+        li {
+          font-size: 12px;
+          width: 265px;
+        }
+      }
+      .location {
+        iframe {
+          width: 300px;
+        }
+      }
+      .hr {
+        width: 300px;
+      }
+    }
+    .workingLeftContent {
+      .dropBox {
+        width: 270px;
+      }
+      .jobs {
+        width: 270px;
+        .dashed {
+          width: 266px;
+        }
+      }
+      .advertisement {
+        width: 320px;
+        background-size: contain;
+        p {
+          width: 304px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
