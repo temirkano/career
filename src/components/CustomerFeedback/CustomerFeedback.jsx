@@ -44,10 +44,10 @@ const CustomerFeedback = () => {
           </div>
         </div>
       </Slider>
-      <button onClick={() => arrowRef.current.slickPrev()}>
+      <button className={scss.vector} onClick={() => arrowRef.current.slickPrev()}>
         <img src={prev} alt="iconPrev" />
       </button>
-      <button onClick={()=> arrowRef.current.slickNext()}>
+      <button className={scss.vector} onClick={()=> arrowRef.current.slickNext()}>
         <img src={next} alt="iconNext" />
       </button>
     </>

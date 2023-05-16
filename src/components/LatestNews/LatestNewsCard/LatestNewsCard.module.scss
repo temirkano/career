@@ -1,0 +1,11 @@
+.picture {
+  width: 100%;
+  .pictureSize {
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+}
