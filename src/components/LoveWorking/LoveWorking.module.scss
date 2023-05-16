@@ -264,6 +264,9 @@
       .jobSkills {
         .jobBox {
           grid-template: 1fr 1fr/1fr 1fr;
+          p {
+            width: max-content;
+          }
         }
       }
       .location {
