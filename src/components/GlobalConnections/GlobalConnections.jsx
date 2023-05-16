@@ -25,7 +25,6 @@ const GlobalConnections = () => {
           slidesToScroll: 3,
           infinite: true,
           dots: false,
-          speed: 3000,
         },
       },
       {
