@@ -15,7 +15,7 @@ const GlobalConnections = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 2000,
+    speed: 1500,
     arrows: false,
     responsive: [
       {
@@ -29,7 +29,7 @@ const GlobalConnections = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
