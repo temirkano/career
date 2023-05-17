@@ -2,6 +2,7 @@
   background-image: url(../../assets/SalesImg/BackgroundSale.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 304px;
   padding-top: 2%;
   .container {
@@ -13,7 +14,7 @@
       .link {
         display: flex;
         gap: 15px;
-        margin-bottom: 60px;
+        margin: 40px 0px 60px 0px;
         a {
           font-style: normal;
           font-weight: 400;
@@ -22,9 +23,13 @@
           color: #ffffff;
           text-decoration: none;
         }
-        .sls {
+        .sls,
+        .sls1 {
           color: #ffffff;
           opacity: 0.48;
+        }
+        .sls1 {
+          display: none;
         }
       }
       h1 {
@@ -53,10 +58,11 @@
       }
     }
     .leftSales {
-        margin-top: 5%;
+      margin-top: 100px;
       .checkBox {
         display: flex;
         gap: 40px;
+        align-items: center;
         cursor: pointer;
         button {
           display: flex;
@@ -73,10 +79,15 @@
           font-size: 15px;
           line-height: 26px;
           color: #ffffff;
+          border: none;
+          cursor: pointer;
 
-          &:hover{
+          &:hover {
             background-color: #a40505;
           }
+        }
+        .liked {
+          margin-top: 6px;
         }
       }
       p {
@@ -95,6 +106,187 @@
           line-height: 24px;
           text-align: center;
           color: #fa541c;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .sales {
+    height: 100%;
+    .container {
+      .rightSales {
+        .dataBoxs {
+          display: block;
+          padding-bottom: 40px;
+          .dataBox {
+            a {
+              margin: 15px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 860px) {
+  .sales {
+    .container {
+      .rightSales {
+        .link {
+          gap: 10px;
+          a {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 798px) {
+  .sales {
+    .container {
+      .leftSales {
+        .checkBox {
+          button {
+            width: 240px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 734px) {
+  .sales {
+    .container {
+      .rightSales {
+        h1 {
+          font-size: 32px;
+        }
+        .dataBox {
+          a,
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+      .leftSales {
+        .checkBox {
+          button {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 656px) {
+  .sales {
+    .container {
+      .rightSales {
+        h1 {
+          font-size: 28px;
+        }
+        .link {
+          gap: 5px;
+          a {
+            font-size: 9px;
+          }
+        }
+      }
+      .leftSales {
+        .checkBox {
+          gap: 20px;
+          button {
+            font-size: 13px;
+            width: 180px;
+            height: 42px;
+          }
+        }
+        p {
+          font-size: 10px;
+          margin-right: 40px;
+        }
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .sales {
+    height: 100%;
+    .container {
+      display: block;
+      .rightSales {
+        .link {
+          gap: 12px;
+          margin-bottom: 50px;
+          a {
+            font-size: 14px;
+          }
+          .sls {
+            display: none;
+          }
+          .sls1 {
+            display: block;
+          }
+        }
+        .dataBox {
+          a,
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+      .leftSales {
+        margin-top: 60px;
+        .checkBox {
+          button {
+            font-size: 16px;
+            width: 400px;
+            height: 56px;
+          }
+        }
+        p {
+          font-size: 15px;
+          margin-right: 90px;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 362px) {
+  .sales {
+    .container {
+      .rightSales {
+        .link {
+          gap: 10px;
+          a {
+            font-size: 10px;
+          }
+        }
+      }
+      .leftSales {
+        p {
+          font-size: 12px;
+          margin-right: 0px;
+          text-align: start;
+          margin-left: 19px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 290px) {
+  .sales {
+    .container {
+      .leftSales {
+        p {
+          margin-left: 10px;
         }
       }
     }

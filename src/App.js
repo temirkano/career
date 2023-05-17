@@ -1,8 +1,9 @@
 import "./App.css";
-import LoveWorking from "./components/LoveWorking/LoveWorking";
+import Sales from "./components/Sales/Sales"
 function App() {
   return (
     <div className="App">
+      <Sales/>
       <LoveWorking />
 import MainCareer from "./components/MainCareer/MainCareer";
 import AboutPage from "./pages/AboutPage";
