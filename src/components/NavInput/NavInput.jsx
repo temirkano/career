@@ -21,7 +21,7 @@ function NavInput() {
           <div className={css.in2}>
             <div>
               <select >
-                <option selected disabled>
+                <option>
                   Categories
                 </option>
                 <option>Categories</option>
@@ -34,7 +34,7 @@ function NavInput() {
           <div className={css.in3}>
             <div>
               <select >
-                <option selected disabled>
+                <option >
                   Locations
                 </option>
                 <option>Locations</option>
@@ -93,7 +93,7 @@ function NavInput() {
                 <div className={css.in_2}>
                   <div>
                     <select >
-                      <option selected disabled>
+                      <option >
                         Categories
                       </option>
                       <option>Categories</option>
@@ -106,7 +106,7 @@ function NavInput() {
                 <div className={css.in_3}>
                   <div>
                     <select >
-                      <option selected disabled>
+                      <option >
                         Locations
                       </option>
                       <option>Locations</option>
