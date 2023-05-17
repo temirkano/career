@@ -52,7 +52,7 @@ function JobDes() {
         <div className={css.right}>
             <div className={css.flex}>
               <div>
-                <img src={calendr} alt="" />
+                <img src={calendr} alt="calendar" />
               </div>
               <div className={css.text}>
                 <h2>Date Posted</h2>
@@ -61,7 +61,7 @@ function JobDes() {
             </div>
             <div className={css.flex}>
               <div>
-                <img src={time} alt="" />
+                <img src={time} alt="hourglass" />
               </div>
               <div className={css.text}>
                 <h2>Expiration date</h2>
@@ -70,7 +70,7 @@ function JobDes() {
             </div>
             <div className={css.flex}>
               <div>
-                <img src={cash} alt="" />
+                <img src={cash} alt="cash" />
               </div>
               <div className={css.text}>
                 <h2>Offered Salary (month)</h2>
@@ -79,7 +79,7 @@ function JobDes() {
             </div>
             <div className={css.flex}>
               <div>
-                <img src={top} alt="" />
+                <img src={top} alt="increase_level" />
               </div>
               <div className={css.text}>
                 <h2>Experience</h2>
@@ -88,7 +88,7 @@ function JobDes() {
             </div>
             <div className={css.flex}>
               <div>
-                <img src={user} alt="" />
+                <img src={user} alt="user" />
               </div>
               <div className={css.text}>
                 <h2>Level</h2>
@@ -97,7 +97,7 @@ function JobDes() {
             </div>
             <div className={css.flex}>
               <div>
-                <img src={translate} alt="" />
+                <img src={translate} alt="translate" />
               </div>
               <div className={css.text}>
                 <h2>Language</h2>
