@@ -1,4 +1,9 @@
 import "./App.css";
+import LoveWorking from "./components/LoveWorking/LoveWorking";
+function App() {
+  return (
+    <div className="App">
+      <LoveWorking />
 import MainCareer from "./components/MainCareer/MainCareer";
 import AboutPage from "./pages/AboutPage";
 import ListPage from './pages/ListPage'
