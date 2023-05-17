@@ -272,7 +272,6 @@
       }
       .jobSkills {
         .jobBox {
-          // grid-template: 1fr 1fr/1fr 1fr;
           p {
             width: max-content;
           }
@@ -291,8 +290,6 @@
 }
 @media (max-width: 915px) {
   .container {
-    display: block;
-    margin: 0 auto;
     .workingRightContent {
       .loveWorkingText {
         li {
@@ -330,6 +327,12 @@
         }
       }
     }
+  }
+}
+@media (max-width: 876px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 @media (max-width: 400px) {
