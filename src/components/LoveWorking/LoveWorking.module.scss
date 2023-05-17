@@ -165,8 +165,17 @@
       .jobSkills {
         .jobBox {
           display: grid;
-          grid-template: 1fr 1fr / 1fr 1fr 1fr;
+          grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
           width: min-content;
+          gap: 5px;
+          p {
+            padding: 4px 10px;
+            font-size: 12px;
+            margin: 2px;
+          }
+          .art {
+            width: 64px;
+          }
         }
       }
       .location {
@@ -263,7 +272,7 @@
       }
       .jobSkills {
         .jobBox {
-          grid-template: 1fr 1fr/1fr 1fr;
+          // grid-template: 1fr 1fr/1fr 1fr;
           p {
             width: max-content;
           }
@@ -285,6 +294,12 @@
     display: block;
     margin: 0 auto;
     .workingRightContent {
+      .loveWorkingText {
+        li {
+          font-size: 14px;
+          margin-left: -16px;
+        }
+      }
       .share {
         width: 200px;
         margin-bottom: 40px;
@@ -303,8 +318,14 @@
       .jobSkills {
         .jobBox {
           p {
-            margin-bottom: -16px;
+            gap: 20px 0px;
             width: max-content;
+          }
+          .history {
+            margin-left: -45px;
+          }
+          .creativity {
+            margin-left: -16px;
           }
         }
       }

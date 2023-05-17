@@ -48,11 +48,11 @@ function LoveWorking() {
           <div className={scss.jobBox}>
             <p>Photography</p>
             <p>Design</p>
-            <p>Art</p>
-            <p>History</p>
+            <p> Art</p>
+            <p className={scss.history}>History</p>
             <p>Museums</p>
-            <p>Creativity</p>
-            <p>Art History</p>
+            <p className={scss.creativity}>Creativity</p>
+            <p className={scss.art}>Art History</p>
           </div>
         </div>
         <div className={scss.advantages}>
