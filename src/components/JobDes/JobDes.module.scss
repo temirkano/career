@@ -1,0 +1,219 @@
+.wrapper {
+  display: flex;
+  text-align: start;
+
+  .left {
+    margin-left: 144px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+    .tx1 {
+      h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #212b36;
+      }
+      p {
+        width: 746px;
+        height: 56px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #212b36;
+      }
+    }
+
+    .tx2 {
+      h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #212b36;
+      }
+
+      ul {
+        width: 760px;
+        height: 230px;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #212b36;
+      }
+    }
+  }
+
+  .right {
+    width: 22%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+    border-radius: 16px;
+
+    .flex {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      margin-left: 30px;
+      margin-top: 25px;
+      margin-bottom: 5px;
+      gap: 17px;
+
+      .text {
+        width: 100%;
+
+        .p {
+          color: #ff4842;
+        }
+
+        h2 {
+          margin: 0;
+          margin-top: 3px;
+          font-weight: 600;
+          font-size: 15px;
+          color: #212b36;
+        }
+
+        p {
+          margin: 0;
+          margin-top: 5px;
+          font-weight: 400;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1095px) {
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+        .right{
+            width: 340px;
+            order: 1;
+        }
+        .left{
+            order: 2;
+            align-items:self-end;
+            .tx1{
+                width: 800px;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width:912px) {
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+
+        .right{
+            width: 335px;
+            order: 1;
+        }
+        .left{
+            align-items: self-end;
+            order: 2;
+
+            .tx1{
+                width: 640px;
+                margin-top: 40px;
+                h1{
+                    width: 141px;
+                    height: 30px;
+          
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                p{
+                    width: 640px;
+                    height: 100px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+            }
+
+            .tx2{
+                h1{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                ul{
+                    width: 600px;
+                    height: 276px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    .right {
+      width: 330px;
+      height: 450px;
+
+      order: 1;
+    }
+
+    .left {
+      margin: 0;
+      order: 2;
+      align-items: center;
+
+      .tx1 {
+        width: 340px;
+        margin-top: 30px;
+        h1 {
+          width: 141px;
+          height: 30px;
+
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+        }
+        p {
+          width: 335px;
+          height: 140px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+
+      .tx2 {
+        h1 {
+            margin-left: 20px;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+        }
+        ul {
+          width: 335px;
+          height: 476px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}
