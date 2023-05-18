@@ -8,6 +8,7 @@ import Jobs from "../components/ExploreJobs/Jobs";
 import GlobalConnections from "../components/GlobalConnections/GlobalConnections";
 import CustomerFeedback from "../components/CustomerFeedback/CustomerFeedback";
 import LatestNewsList from "../components/LatestNewsList/LatestNewsList"
+import JobDes from "../components/JobDes/JobDes";
 
 function AboutPage() {
   return (
@@ -21,6 +22,7 @@ function AboutPage() {
       <LatestNewsList/>
       <DownloadApp />
       <Footer />
+      <JobDes/>
     </>
   );
 }
