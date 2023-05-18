@@ -61,7 +61,9 @@ function Sales() {
           </div>
           <p>
             Expiration date:
-            <span> 19 May 2026</span>
+            <span>
+               19 May 2026
+            </span>
           </p>
         </div>
       </div>
