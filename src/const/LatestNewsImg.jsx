@@ -4,7 +4,7 @@ import city3 from "../assets/LatestNewsImg/Ratio3.svg";
 import city4 from "../assets/LatestNewsImg/Ratio4.svg";
 import city0 from "../assets/LatestNewsImg/Ratio.svg";
 
-export const LatestNewsImg1 = [city0, city1, city2, city3, city4];
+// export const LatestNewsImg1 = [city0, city1, city2, city3, city4];
 
 export const LatestNewsImg = [
   {
@@ -24,7 +24,7 @@ export const LatestNewsImg = [
     image: city2,
     title: "Event Doesn't Have To Be Hard. Read These 7 Tips",
     desc: "24 May 2019 * 8 mins",
-  },
+  }, 
   {
     id: 4,
     image: city3,

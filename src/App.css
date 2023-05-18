@@ -57,6 +57,10 @@ li {
   color: #637381;
   font-family: "Poppins", sans-serif;
 }
+a{
+  font-family: "Poppins", sans-serif;
+  color: #212b36;
+}
 .container {
   width: 82%;
   margin: 0 auto;
