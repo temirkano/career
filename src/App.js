@@ -1,9 +1,12 @@
 import "./App.css";
-import LatestNewsList from "./components/LatestNewsList/LatestNewsList";
+import AboutPage from "./pages/AboutPage";
+import DetailsPage from "./pages/DetailsPage";
+
 function App() {
   return (
     <div className="App">
-      <LatestNewsList />
+    {/* <AboutPage/> */}
+    <DetailsPage/>
     </div>
   );
 }
