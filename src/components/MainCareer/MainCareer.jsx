@@ -7,10 +7,12 @@ import netflix from "../../assets/CareerMain/brand_netflix.svg";
 import slack from "../../assets/CareerMain/brand_slack.svg";
 import spotify from "../../assets/CareerMain/brand_spotify.svg";
 import leftImg from "../../assets/CareerMain/Component 2.png";
+import HeaderSecond from "../HeaderSecond/HeaderSecond";
 
 function MainCareer() {
   return (
     <div className={scss.wrapper}>
+      <HeaderSecond/>
       <div className={scss.container}>
         <div className={scss.career}>
           <div className={scss.rightCareer}>
@@ -27,7 +29,11 @@ function MainCareer() {
             <div className={scss.boxSearch}>
               <div className={scss.search}>
                 <img src={search} alt="icon" />
-                <input className={scss.inputSearch} type="text" placeholder="Job title, keywords..." />
+                <input
+                  className={scss.inputSearch}
+                  type="text"
+                  placeholder="Job title, keywords..."
+                />
               </div>
               <div className={scss.hr}></div>
               <div className={scss.location}>
