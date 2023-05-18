@@ -14,7 +14,7 @@
       .link {
         display: flex;
         gap: 15px;
-        margin-bottom: 60px;
+        margin: 40px 0px 60px 0px;
         a {
           font-style: normal;
           font-weight: 400;
@@ -86,6 +86,9 @@
             background-color: #a40505;
           }
         }
+        .liked {
+          margin-top: 6px;
+        }
       }
       p {
         font-style: normal;
@@ -111,13 +114,15 @@
 }
 @media (max-width: 1024px) {
   .sales {
+    height: 100%;
     .container {
       .rightSales {
         .dataBoxs {
           display: block;
+          padding-bottom: 40px;
           .dataBox {
-            p {
-              margin: 5px;
+            a {
+              margin: 15px 0px;
             }
           }
         }
