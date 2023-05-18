@@ -1,7 +1,7 @@
 import React from "react";
 import scss from "./LatestNewsCard.module.scss";
 
-const LatestNewsCard = ({ id, image, title, desc }) => {
+const LatestNewsCard = ({ id, image, title, desc, desc2 }) => {
   return (
     <> 
       <div className={scss.picture}>
@@ -9,6 +9,7 @@ const LatestNewsCard = ({ id, image, title, desc }) => {
           <img src={image} alt="image"  />
           <h2>{title}</h2>
           <p>{desc}</p>
+
         </div>
       </div>
     </>

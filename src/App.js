@@ -1,9 +1,9 @@
 import "./App.css";
-import Sales from "./components/Sales/Sales"
+import LatestNews from "./components/LatestNews/LatestNews";
 function App() {
   return (
     <div className="App">
-      <Sales/>
+      <LatestNews />
     </div>
   );
 }
