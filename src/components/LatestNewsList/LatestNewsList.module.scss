@@ -1,0 +1,131 @@
+.container {
+  width: 82%;
+  margin: 0 4%;
+  margin-top: 5%;
+  .newsList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    .newsRight {
+      text-align: start;
+      h1 {
+        width: 448px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #212b36;
+      }
+      p {
+        width: 460px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #637381;
+      }
+    }
+    .newsLeft {
+      margin-top: 125px;
+      button {
+        border: none;
+        background: none;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #fa541c;
+        gap: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  .newsLeft1 {
+    display: none;
+    margin-top: 50px;
+    button {
+      border: none;
+      background: none;
+      font-style: normal;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #fa541c;
+      gap: 20px;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 696px) {
+  .container {
+    .newsList {
+      .newsRight {
+        h1 {
+          font-size: 30px;
+          width: 290px;
+        }
+        p {
+          width: 300px;
+          font-size: 11px;
+        }
+      }
+      .newsLeft {
+        margin-top: 100px;
+        button {
+          font-size: 10px;
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    .newsList {
+      margin-bottom: 30px;
+      .newsRight {
+        text-align: center;
+        margin: 0 auto;
+        h1 {
+          margin: 0px;
+        }
+      }
+      .newsLeft {
+        display: none;
+      }
+    }
+    .newsLeft1 {
+      display: block;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    .newsList {
+      .newsRight {
+        text-align: center;
+        margin: 0 auto;
+        span {
+          font-size: 12px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+        p {
+          width: 283px;
+          font-size: 12px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

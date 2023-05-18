@@ -1,9 +1,9 @@
 import "./App.css";
-import LatestNews from "./components/LatestNews/LatestNews";
+import LatestNewsList from "./components/LatestNewsList/LatestNewsList";
 function App() {
   return (
     <div className="App">
-      <LatestNews />
+      <LatestNewsList />
     </div>
   );
 }
