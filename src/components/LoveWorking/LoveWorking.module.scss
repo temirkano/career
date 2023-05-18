@@ -262,6 +262,24 @@
         width: 460px;
       }
     }
+    .workingLeftContent {
+      .dropBox,
+      .jobs {
+        width: 254px;
+
+        .dashed {
+          width: 254px;
+        }
+      }
+      .advertisement {
+        width: 304px;
+        height: 306px;
+        h3 {
+          width: 310px;
+          font-size: 12px;
+        }
+      }
+    }
   }
 }
 @media (max-width: 960px) {
@@ -339,7 +357,7 @@
       .advertisement {
         width: 304px;
         height: 306px;
-        h3{
+        h3 {
           width: 310px;
           font-size: 12px;
         }
@@ -358,7 +376,7 @@
           font-size: 32px;
         }
         li {
-          width: 500px;
+          width: 600px;
         }
       }
       .location {

@@ -5,6 +5,7 @@ import eye from "../../assets/SalesImg/eye.svg";
 import pin from "../../assets/SalesImg/pin.svg";
 import like from "../../assets/SalesImg/like.svg";
 
+
 function Sales() {
   return (
     <div className={scss.sales}>
