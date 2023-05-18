@@ -129,3 +129,18 @@
     }
   }
 }
+@media (max-width: 280px) {
+  .container {
+    .newsList {
+      .newsRight {
+        h1 {
+          width: 240px;
+        }
+        p {
+          width: 200px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
