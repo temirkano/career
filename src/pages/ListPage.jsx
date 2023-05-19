@@ -1,12 +1,14 @@
-import React from 'react'
-import NavInput from '../components/NavInput/NavInput'
+import React from "react";
+import NavInput from "../components/NavInput/NavInput";
+import Header from "../components/Header/Header";
 
 function ListPage() {
   return (
     <div>
-        <NavInput/>
+      <Header />
+      <NavInput />
     </div>
-  )
+  );
 }
 
-export default ListPage
+export default ListPage;

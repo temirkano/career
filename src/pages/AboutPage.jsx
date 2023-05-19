@@ -7,22 +7,22 @@ import MainCareer from "../components/MainCareer/MainCareer";
 import Jobs from "../components/ExploreJobs/Jobs";
 import GlobalConnections from "../components/GlobalConnections/GlobalConnections";
 import CustomerFeedback from "../components/CustomerFeedback/CustomerFeedback";
-import LatestNewsList from "../components/LatestNewsList/LatestNewsList"
-import JobDes from "../components/JobDes/JobDes";
+import LatestNewsList from "../components/LatestNewsList/LatestNewsList";
+import HotCategories from "../components/HotCategories/HotCategories";
 
 function AboutPage() {
   return (
     <>
       <MainCareer />
       <Jobs />
+      <HotCategories/>
       <GlobalConnections />
       <Main />
-      <CustomerFeedback/>
+      <CustomerFeedback />
       <Clients />
-      <LatestNewsList/>
+      <LatestNewsList />
       <DownloadApp />
       <Footer />
-      <JobDes/>
     </>
   );
 }

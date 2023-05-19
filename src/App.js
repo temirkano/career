@@ -1,30 +1,19 @@
 import "./App.css";
+import BlogPage from "./pages/BlogPage"
 import AboutPage from "./pages/AboutPage";
 import DetailsPage from "./pages/DetailsPage";
-
+import ListPage from "./pages/ListPage";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-    {/* <AboutPage/> */}
-    <DetailsPage/>
-      <LatestNewsList />
-      <Sales/>
-      <LoveWorking />
-import MainCareer from "./components/MainCareer/MainCareer";
-import AboutPage from "./pages/AboutPage";
-import ListPage from './pages/ListPage'
-import CustomerFeedback from "./components/CustomerFeedback/CustomerFeedback";
-import LatestNews from "./components/LatestNews/LatestNews";
-import GlobalConnections from "./components/GlobalConnections/GlobalConnections";
-function App() {
-  return (
-    <div className="App">
-      <AboutPage />
-      <MainCareer />
-      <ListPage/>
-      <GlobalConnections />
-      {/* <LatestNews /> */}
+      <Routes>
+        <Route path="/about" element={< AboutPage />} />
+        <Route path="/details" element={< DetailsPage />} />
+        <Route path="/list" element={<ListPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+      </Routes>
     </div>
-   );
-  }
+  );
+}
 export default App;

@@ -61,7 +61,47 @@ a{
   font-family: "Poppins", sans-serif;
   color: #212b36;
 }
+
 .container {
-  width: 82%;
-  margin: 0 auto;
+  padding: 0 9%;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding: 0 97px;
+  }
+}
+@media (max-width: 1130px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1045px) {
+  .container {
+    padding: 0 86px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0 20px;
+  }
 }
